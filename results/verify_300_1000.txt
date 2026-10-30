@@ -1,0 +1,22 @@
+verify_tuple.py  results/certs/n_300.json
+  n = 300: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  newton: 128 bits not enough, retrying
+  newton : all k = 1..300 done | 300 bits | W exact in balls: no | 0.1s
+           max_k |s_k| in [0.691018908238903, 0.691018908238904]   (largest at k = 300)
+           RIGOROUS max_k |s_k| <= 0.691018908239   certificate: 0.691018908239   -> CONFIRMED
+  inverse: all k = 1..300 done | 320 bits | W exact in balls: yes | 0.0s
+           max_k |s_k| in [0.691018908238903, 0.691018908238904]   (largest at k = 300)
+           RIGOROUS max_k |s_k| <= 0.691018908239   certificate: 0.691018908239   -> CONFIRMED
+  newton vs inverse: intervals overlap for every k
+  total time for n = 300: 0.1s
+verify_tuple.py  results/certs/n_1000.json
+  n = 1000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  newton: 128 bits not enough, retrying
+  newton : all k = 1..1000 done | 694 bits | W exact in balls: yes | 0.6s
+           max_k |s_k| in [0.688245154928701, 0.688245154928702]   (largest at k = 1000)
+           RIGOROUS max_k |s_k| <= 0.688245154929   certificate: 0.688245154929   -> CONFIRMED
+  inverse: all k = 1..1000 done | 320 bits | W exact in balls: yes | 0.1s
+           max_k |s_k| in [0.688245154928701, 0.688245154928702]   (largest at k = 1000)
+           RIGOROUS max_k |s_k| <= 0.688245154929   certificate: 0.688245154929   -> CONFIRMED
+  newton vs inverse: intervals overlap for every k
+  total time for n = 1000: 0.7s

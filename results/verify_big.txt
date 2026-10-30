@@ -1,0 +1,30 @@
+verify_tuple.py  results\certs\n_3000.json
+  n = 3000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  inverse: all k = 1..3000 done | 320 bits | W exact in balls: yes | 0.2s
+           max_k |s_k| in [0.687169029138479, 0.687169029138480]   (largest at k = 3000)
+           RIGOROUS max_k |s_k| <= 0.687169029139   certificate: 0.687169029139   -> CONFIRMED
+  total time for n = 3000: 0.3s
+verify_tuple.py  results\certs\n_10000.json
+  n = 10000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  inverse: all k = 1..10000 done | 320 bits | W exact in balls: yes | 0.9s
+           max_k |s_k| in [0.686673342515948, 0.686673342515949]   (largest at k = 5554)
+           RIGOROUS max_k |s_k| <= 0.686673342516   certificate: 0.686673342516   -> CONFIRMED
+  total time for n = 10000: 1.0s
+verify_tuple.py  results\certs\n_30000.json
+  n = 30000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  inverse: all k = 1..30000 done | 320 bits | W exact in balls: yes | 2.6s
+           max_k |s_k| in [0.686489957912097, 0.686489957912098]   (largest at k = 30000)
+           RIGOROUS max_k |s_k| <= 0.686489957913   certificate: 0.686489957913   -> CONFIRMED
+  total time for n = 30000: 2.8s
+verify_tuple.py  results\certs\n_100000.json
+  n = 100000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  inverse: all k = 1..100000 done | 320 bits | W exact in balls: yes | 10.3s
+           max_k |s_k| in [0.686409189525917, 0.686409189525918]   (largest at k = 100000)
+           RIGOROUS max_k |s_k| <= 0.686409189526   certificate: 0.686409189526   -> CONFIRMED
+  total time for n = 100000: 11.0s
+verify_tuple.py  results\certs\n_300000.json
+  n = 300000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  inverse: all k = 1..300000 done | 320 bits | W exact in balls: yes | 38.1s
+           max_k |s_k| in [0.686380380701450, 0.686380380701451]   (largest at k = 300000)
+           RIGOROUS max_k |s_k| <= 0.686380380702   certificate: 0.686380380702   -> CONFIRMED
+  total time for n = 300000: 40.0s

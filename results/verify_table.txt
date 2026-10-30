@@ -1,0 +1,38 @@
+verify_tuple.py  results\certs\n_500.json
+  n = 500: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  newton: 128 bits not enough, retrying
+  newton : all k = 1..500 done | 412 bits | W exact in balls: yes | 0.1s
+           max_k |s_k| in [0.689542310940141, 0.689542310940142]   (largest at k = 500)
+           RIGOROUS max_k |s_k| <= 0.689542310941   certificate: 0.689542310941   -> CONFIRMED
+  total time for n = 500: 0.1s
+verify_tuple.py  results\certs\n_2000.json
+  n = 2000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  newton: 128 bits not enough, retrying
+  newton : all k = 1..2000 done | 1256 bits | W exact in balls: yes | 2.5s
+           max_k |s_k| in [0.687468053118610, 0.687468053118611]   (largest at k = 2000)
+           RIGOROUS max_k |s_k| <= 0.687468053119   certificate: 0.687468053119   -> CONFIRMED
+  total time for n = 2000: 2.5s
+verify_tuple.py  results\certs\n_5000.json
+  n = 5000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  inverse: all k = 1..5000 done | 320 bits | W exact in balls: yes | 0.4s
+           max_k |s_k| in [0.686902345660851, 0.686902345660852]   (largest at k = 5000)
+           RIGOROUS max_k |s_k| <= 0.686902345661   certificate: 0.686902345661   -> CONFIRMED
+  total time for n = 5000: 0.5s
+verify_tuple.py  results\certs\n_20000.json
+  n = 20000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  inverse: all k = 1..20000 done | 320 bits | W exact in balls: yes | 1.9s
+           max_k |s_k| in [0.686540042276604, 0.686540042276605]   (largest at k = 20000)
+           RIGOROUS max_k |s_k| <= 0.686540042277   certificate: 0.686540042277   -> CONFIRMED
+  total time for n = 20000: 2.0s
+verify_tuple.py  results\certs\n_50000.json
+  n = 50000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  inverse: all k = 1..50000 done | 320 bits | W exact in balls: yes | 4.8s
+           max_k |s_k| in [0.686446081101166, 0.686446081101167]   (largest at k = 50000)
+           RIGOROUS max_k |s_k| <= 0.686446081102   certificate: 0.686446081102   -> CONFIRMED
+  total time for n = 50000: 5.1s
+verify_tuple.py  results\certs\n_1000000.json
+  n = 1000000: b_0 = 1 exactly, W(1) = 0 exactly  ->  z_1 = 1 is in the tuple (n numbers in all)
+  inverse: all k = 1..1000000 done | 320 bits | W exact in balls: yes | 109.7s
+           max_k |s_k| in [0.686368028004727, 0.686368028004728]   (largest at k = 1000000)
+           RIGOROUS max_k |s_k| <= 0.686368028005   certificate: 0.686368028005   -> CONFIRMED
+  total time for n = 1000000: 115.9s

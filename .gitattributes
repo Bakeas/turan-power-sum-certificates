@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+# certificates, their SHA-256 sums and the JSON data must stay byte-exact (no line-ending conversion)
+results/certs/* -text
+*.json -text

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these certificates or this code, please cite them as below."
+title: "Certified upper bounds in Turán's pure power sum problem (Erdős #519)"
+abstract: >-
+  Explicit n-tuples of complex numbers, stored as exact certificates, giving
+  rigorous upper bounds for R_n in Turán's pure power sum problem for 13 values
+  of n between 300 and 1000000, with two independent checkers (ball arithmetic
+  and exact integer arithmetic). Not peer reviewed; made with substantial help
+  from AI models (Claude Opus 5.5 and Claude Sonnet 5.5, Anthropic).
+authors:
+  - family-names: Bakeas
+    given-names: Vasileios
+    affiliation: "Department of Mechanical Engineering, University of Thessaly, Volos, Greece"
+    email: bakeasb@gmail.com
+type: software
+version: 1.0.0
+date-released: 2026-10-31
+repository-code: "https://github.com/Bakeas/turan-power-sum-certificates"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - Turán power sum problem
+  - Erdős problem 519
+  - power sums
+  - certified computation
+  - interval arithmetic

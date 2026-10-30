@@ -1,0 +1,4 @@
+exact_check.py, certificates: integers only (no floats, no balls); every k = 1..n checked
+      n     D  k_max    max|s_k| >= (20 dec)    max|s_k| <= (20 dec)          bound c   result     time  sha256
+    300   330    300  0.69101890823890394806  0.69101890823890394807   0.691018908239   PASSED     2.2s  7c2f25d8ceff2bb7
+    500   331    500  0.68954231094014107070  0.68954231094014107071   0.689542310941   PASSED     9.7s  2fd3941e934eaeb1

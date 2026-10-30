@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# certificates larger than 5 MB: attached to the GitHub release (SHA-256 in results/certs/SHA256SUMS.txt)
+results/certs/n_30000.json
+results/certs/n_50000.json
+results/certs/n_100000.json
+results/certs/n_300000.json
+results/certs/n_1000000.json
+*.zip
